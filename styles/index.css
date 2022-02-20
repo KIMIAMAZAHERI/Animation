@@ -1,0 +1,121 @@
+body{
+    width: 900px;
+    height: 1200px;
+}
+.foto{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    animation-name: fire;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+}
+@keyframes fire{
+    from {left:0;}
+     to  {left:800px; background-color: rgb(240, 205, 11);}
+}
+.foto:hover{
+    animation-play-state: paused;
+}
+.title{
+    margin-left: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 35px;
+}
+.main-text{
+    margin-left: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 35px;
+}
+.sub-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.info-text{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+}
+.info-picture{
+    margin-left: 300px;
+}
+.sub-info{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-left: 75px;
+}
+.time{
+    margin-left: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+}
+.label{
+        margin-left: 75px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 16px;
+        /* identical to box height */
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+}
+.input-field{
+    background-color: #e47f0c;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    margin-top: 30px;
+    margin-left: 75px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.input-field:hover{
+    background-color: #e4bc0c;
+    transition-property: all 1s esay-out;
+    transition-delay: 1s;
+}
+.send-btn{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 65px;
+    width: 100px;
+    height: 38px;
+    margin-left: 100px;
+    background: #f1b10d;
+    border: none;
+    border-radius: 40%;
+    margin-bottom: 100px;
+}
+.send-btn:hover{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 85px;
+    width: 100px;
+    height: 38px;
+    margin-left: 100px;
+    background: #0cb1e4;
+    border: none;
+    border-radius: 40%;
+    margin-bottom: 100px;
+    transition: all 0.09s easy-out;
+    transition-delay: 0.7s;
+}
